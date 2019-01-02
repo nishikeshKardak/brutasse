@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html ng-app="github">
 	<head>
-		<title>brutasse.github.io</title>
+		<title>Ibrahim's Projects</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="assets/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/grid.css">
 		<link rel="stylesheet" type="text/css" href="assets/style.css">
 	</head>
-	<body data-username="brutasse" data-additional="feedhq/feedhq" ng-controller="GithubController" ng-cloak>
+	<body data-username="nishikeshKardak" data-additional="" ng-controller="GithubController" ng-cloak>
 		<div id="wrapper" class="grid clearfix">
 			<div id="main" class="grid-1">
 				<h1>
@@ -15,9 +15,9 @@
 					{{ user.name }}
 				</h1>
 				<p ng-show="user.company">{{ user.company }}</p>
-				<p ng-show="user.location">{{ user.location }}</p>
+				<p ng-show="user.location" style="font-size: 15px">{{ user.location }}</p>
 				<p ng-show="user.blog"><a href="{{ user.blog }}">{{ user.blog }}</a></p>
-				<p><br><br>Dashboard design by <a href="http://twitter.github.io">@twitter</a>.</p>
+				<p style="font-size: 15px"><a href="https://nishikeshKardak.github.io">nishikeshKardak.github.io</a></p>
 			</div>
 
 			<div class="grid grid-3">
@@ -28,7 +28,7 @@
 						<br>
 						<a ng-show="source_repos" href="https://github.com/{{ user.login }}?tab=repositories"><span id="num-source-repos">{{ source_repos }}</span> source repos</a>
 						<br>
-						<strong>{{ user.created_at | ago }}</strong> of GitHub age
+						<p><a href="https://github.com/nishikeshKardak">GitHub: nishikeshKardak</a></p>
 					</p>
 				</div>
 
