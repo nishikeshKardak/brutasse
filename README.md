@@ -1,4 +1,4 @@
-brutasse.github.io
+nishikeshKardak.github.io
 ==================
 
 Based on the source code for http://twitter.github.io/, rewritten in
@@ -12,7 +12,7 @@ Fork and rename to `<username>.github.io`.
 Edit `index.html` and set your parameters in the opening `<body>` block:
 
 ```
-<body data-username="brutasse" data-additional="feedhq/feedhq" ng-controller…>
+<body data-username="nishikeshKardak" data-additional="" ng-controller…>
 ```
 
 Set `data-username` to your GitHub username. If you want additional repos in
